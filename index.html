@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIMENERGY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css" integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="main-header">
+                <div class="main-header__logo">
+                    <img src="img/Logo.svg" alt="Logo">
+                </div>
+                <div class="topnav">
+                    <div id="myLinks">
+                      <a href="#catalog">Каталог</a>
+                      <a href="#about-me">О компании</a>
+                      <a href="#partners">Партнеры</a>
+                      <a href="#contacs">Контакты</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <ul class="header-navigation__items">
+                    <li class="header-navigation__item"><a href="#catalog" class="header-link">Каталог</a></li>
+                    <li class="header-navigation__item"><a href="#about-me" class="header-link">О компании</a></li>
+                    <li class="header-navigation__item"><a href="#partners" class="header-link">Партнеры</a></li>
+                    <li class="header-navigation__item" id="last-blog"><a href="#contacs" class="header-link">Контакты</a></li>
+                </ul>
+                <a href="https://t.me/elnuranvarbek" class="btn media">Обратный звонок</a>
+            </div>
+        </div>
+    </header>
+    <section class="subtitle-section">
+        <img src="img/power-station.png" alt="" class="power-station">
+        <div class="container">
+            <div class="main-subtitle-item">
+                <h3 class="main-item-title">надежный и ответственный партнер – поставщик</h3>
+            </div>
+            <div class="main-subtitle">
+                <div class="main-subtitle-first">
+                    <div class="main-subtitle-first-blog">
+                        <h3 class="subtitle-first-item">поставками электротхнической продукции</h3>
+                        <div class="lenear-gradient"></div>
+                        <h5 class="subtitle-first-subitem">Мы снабжаем произвдственные и строительные компании по всей территории Республикик Каазахстан</h5>
+                    </div>
+                </div>
+                <div class="main-subtitle-center">
+                    <img src="img/Polygon 1.svg" alt="" class="subtitle-blog">
+                    <h1 class="subtitle-center-item">электротхническоя продукция </h1>
+                    <h3 class="subtitle-center-subitem">по всей территории Республики <br> Казахстан </h3>
+                    <div class="subtitle-btn">
+                        <a href="#popup" class="btn">Оформить заявку <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-me-section" id="about-me">
+        <div class="container">
+            <h1 class="about-me-item">О компании</h1>
+            <div class="main-about-me">
+                <div class="about-me-info">
+                    <div class="about-me-info-blog">
+                        <h3 class="about-me-title">ТОО «JIM ENERGY» - было основано в 2018 году, и занимается поставками электротхнической продукции, электро установочной и кабельно – проводниковой продукции</h3>
+                        <h3 class="about-me-title" id="last-blog">Мы снабжаем произвдственные и строительные компании по всей территории Республикик Каазахстан. Являемся дилерами ведущих производителей, таких как: <br> ¬- IEK <br> -EKF <br> -Schneider Electric <br> -DKC <br> -AK KABLO</h3>
+                    </div>
+                </div>
+                <div class="about-me-image">
+                    <img src="img/about-company.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages-section">
+        <div class="container">
+            <h1 class="adcantages-item">Наши преимущества</h1>
+            <div class="main-advantages">
+                <div class="advantages-blog">
+                    <div class="advantages-image">
+                        <img src="img/like 1.svg" alt="Like">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Цена </h3>
+                        <p class="advantages-subtitle">Работаем с заводом, изготовителем и работаем напрямую без посредников</p>
+                    </div>
+                </div>
+                <div class="advantages-blog">
+                    <div class="advantages-image">
+                        <img src="img/stopwatch 1.svg" alt="Stopwatch">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Доступность</h3>
+                        <p class="advantages-subtitle">Вся продукция в наличии на складе, заказные позиции производим в течении 1-7 дней</p>
+                    </div>
+                </div>
+                <div class="advantages-blog" id="last-blog">
+                    <div class="advantages-image">
+                        <img src="img/industrial-robot 1.svg" alt="Rndustrial Robot">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Качество    </h3>
+                        <p class="advantages-subtitle">Проводим контроль качества продукции. Используем только качественные материалы</p>
+                    </div>
+                </div>
+                <div class="advantages-blog">
+                    <div class="advantages-image">
+                        <img src="img/carta.svg" alt="Carta">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Оплата</h3>
+                        <p class="advantages-subtitle">Любая форма оплаты: наличный и безналичный расчет.</p>
+                    </div>
+                </div>
+                <div class="advantages-blog">
+                    <div class="advantages-image">
+                        <img src="img/medal 1.svg" alt="Medal">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Надежность</h3>
+                        <p class="advantages-subtitle">Все необходимые документы и сертификаты, стандарты ГОСТ</p>
+                    </div>
+                </div>
+                <div class="advantages-blog" id="last-blog">
+                    <div class="advantages-image">
+                        <img src="img/rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="advantages-blog-info">
+                        <h3 class="advantafes-title">Доставка</h3>
+                        <p class="advantages-subtitle">Оперативная доставка в любой город Казахстана</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work-section">
+        <div class="container">
+            <div class="main-work">
+                <div class="work-image">
+                    <img src="img/work.png" alt="">
+                </div>
+                <div class="work-info">
+                    <h3 class="work-title">Мы успешно работаем с компаниями: <br> -«Астана Ас» <br>-«Комплект Азия Сервис» <br>-«Тан-Дан» <br>-«GAZCENTER TOO» <br>-Филиал ТОО «Olimp Medical Group» в г.Нурсулатан, и другими компаниями Республики Казахстан.</h3> 
+                    <h3 class="work-title" id="last-blog">Зарекомендовали себя при этом как надежный и ответственный партнер – поставщик. Мы получаем положительные отзывы от крупных строительных компаний таких как: <br>-BI GROUP <br>-Базис А <br>-G-Park <br>-Стройкласс <br>-NAK и многие другие</h3>
+                </div>
+            </div>
+            <h1 class="work-item">Как мы работаем</h1>
+            <div class="main-work-blog">
+                <div class="work-blog">
+                    <div class="work-image">
+                        <img src="img/work-blog-phone.svg" alt="Phone">
+                        <img src="img/Line 38.svg" alt="" class="line">
+                    </div>
+                    <div class="work-blog-info">
+                        <h3 class="work-blog-title">Заявка</h3>
+                        <p class="work-blog-subtitle">Звоните нам или оставляете заявку</p>
+                    </div>
+                </div>
+                <div class="work-blog">
+                    <div class="work-image">
+                        <img src="img/work-blog-architect.svg" alt="Architect">
+                        <img src="img/Line 38.svg" alt="" class="line">
+                    </div>
+                    <div class="work-blog-info">
+                        <h3 class="work-blog-title">Документация</h3>
+                        <p class="work-blog-subtitle">Составляем смету или коммерческое предложение</p>
+                    </div>
+                </div>
+                <div class="work-blog">
+                    <div class="work-image">
+                        <img src="img/work-blog-carta.svg" alt="Carta">
+                        <img src="img/Line 38.svg" alt="" class="line">
+                    </div>
+                    <div class="work-blog-info">
+                        <h3 class="work-blog-title">Оплата</h3>
+                        <p class="work-blog-subtitle">Наличный или безналичный расчет согласно договору</p>
+                    </div>
+                </div>
+                <div class="work-blog" id="last-blog">
+                    <div class="work-image">
+                        <img src="img/work-blog-rocket.svg" alt="Rocket">
+                        <img src="img/Line 38.svg" alt="" class="line">
+                    </div>
+                    <div class="work-blog-info">
+                        <h3 class="work-blog-title">Доставка</h3>
+                        <p class="work-blog-subtitle">Доставка или самовывоз продукции со склада</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-work">
+            <div class="last-work">
+                <img src="img/Line 1.svg" alt="line" class="line">
+                <h1 class="last-blog-number">1</h1>
+                <img src="img/Line 2.svg" alt="line" class="center-line">
+                <h1 class="last-blog-number">2</h1>
+                <img src="img/Line 2.svg" alt="line" class="center-line">
+                <h1 class="last-blog-number">3</h1>
+                <img src="img/Line 2.svg" alt="line" class="center-line">
+                <h1 class="last-blog-number">4</h1>
+                <img src="img/Line 4.svg" alt="line" class="line-last">
+            </div>
+        </div>
+    </section>
+    <section class="project-section">
+        <div class="container">
+            <h1 class="project-title">Мы учавствовали на таких проектах как:</h1>
+            <div class="main-project">
+                <div class="project-blog">
+                    <img src="img/Kokshetau.png" alt="">
+                    <h3 class="project-subtitle">Акимат г.Кокшетау</h3>
+                </div>
+                <div class="project-blog">
+                    <img src="img/hospital-kokshetau.png" alt="">
+                    <h3 class="project-subtitle">Многопрофильная больница г.Кокшетау</h3>
+                </div>
+                <div class="project-blog">
+                    <img src="img/scool.png" alt="">
+                    <h3 class="project-subtitle">Реконструкция школ в селах Балкашино и Сандыктау</h3>
+                </div>
+                <div class="project-blog" id="last-blog">
+                    <img src="img/Nish.png" alt="">
+                    <h3 class="project-subtitle">НИШ  г.Туркестан</h3>
+                </div>
+                <div class="project-blog">
+                    <img src="img/NISH-Almaty.png" alt="">
+                    <h3 class="project-subtitle">НИШ г.Алматы</h3>
+                </div>
+                <div class="project-blog">
+                    <img src="img/kostanay.png" alt="">
+                    <h3 class="project-subtitle">Костанайская область Завод «Соколов Сарыбай»</h3>
+                </div>
+                <div class="project-blog">
+                    <img src="img/Astana.png" alt="">
+                    <h3 class="project-subtitle">Мегаклимат Астана</h3>
+                </div>
+                <div class="project-blog" id="last-blog">
+                    <img src="img/bank.png" alt="">
+                    <h3 class="project-subtitle">Филиал АО «Отбасы банк2»</h3>
+                </div>
+            </div>
+            <div class="project-btn">
+                <a href="#" class="btn">Показать еще <i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="catalog-sectiion" id="catalog">
+        <div class="container">
+            <h1 class="catalog-title">Каталог</h1>
+            <div class="main-catalog">
+                <div class="catalog-blog">
+                    <img src="img/cable.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Кабель / Провод</h3>
+                </div>
+                <div class="catalog-blog">
+                    <img src="img/lamp.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Светильники / Лампы</h3>
+                </div>
+                <div class="catalog-blog">
+                    <img src="img/equipment.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Низковольтная аппаратура</h3>
+                </div>
+                <div class="catalog-blog" id="last-blog">
+                    <img src="img/system-cabel.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Кабеленесущие системы</h3>
+                </div>
+                <div class="catalog-blog">
+                    <img src="img/insulating-tape.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Изделия для монтажа и инструмент</h3>
+                </div>
+                <div class="catalog-blog">
+                    <img src="img/plate.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Прочее оборудование</h3>
+                </div>
+                <div class="catalog-blog">
+                    <img src="img/shield.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Шкафы / Щиты</h3>
+                </div>
+                <div class="catalog-blog" id="last-blog">
+                    <img src="img/adapter.png" alt="" class="catalog-blog-image">
+                    <h3 class="catalog-blog-subtitle">Установочная продукция</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners-section" id="partners">
+        <div class="container">
+            <div class="main-partners-info">
+                <h1 class="partner-info-title">НАши Партнеры </h1>
+                <h3 class="partner-info-subtitle">Мы успешно работаем <br> с такими компаниями как:</h3>
+            </div>
+            <div class="our-partners-icons">
+                <img src="img/ekf.svg" alt="EKF">
+                <img src="img/scheider.svg" alt="scheider">
+                <img src="img/eik.svg" alt="EIK">
+                <img src="img/gauss.svg" alt="gauss">
+                <img src="img/partners-logo.svg" alt="DEKraft">
+                <img src="img/DEKraft.svg" alt="КЭАЗ">
+                <img src="img/КЭАЗ.svg" alt="legrand">
+            </div>
+        </div>
+    </section>
+    <section class="register-section" id="contacs">
+        <div class="container-register">
+            <div class="main-register">
+                <div class="register-map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab3724ab3796b99caeaab7edb73dd64b59398a2908a6f24d41f9891c9237bce1f&amp;source=constructor" width="600" height="400" frameborder="0"></iframe>
+                </div>
+                <div class="register">
+                    <h1 class="register-title">Обратная связь</h1>
+                    <input type="name" class="name" placeholder="Ваше имя">
+                    <input type="email" class="email" placeholder="Ваш номер телефона">
+                    <textarea cols="30" rows="10" placeholder="Сообщение" class="message"></textarea>
+                    <div class="register-btn">
+                        <a href="#popup" class="btn">Отправить <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="main-footer">
+                <div class="footer-blog">
+                    <img src="img/Logo.svg" alt="Logo">
+                    <h3 class="footer-blog-subitem">ТОО «JIM ENERGY» - было основано в 2018 году, и занимается поставками электротхнической продукции, электро установочной и кабельно – проводниковой продукции</h3>
+                </div>
+                <div class="footer-blog">
+                    <h3 class="footer-blog-title">Каталог</h3>
+                    <ul class="footer-navigation__items">
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Кабель / Провод</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Светильники / Лампы</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Низковольтная аппаратура</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Кабеленесущие системы </a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Изделия для монтажа и инструмент</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Прочее оборудование</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Шкафы / Щиты</a></li>
+                        <li class="footer-navigation__item"><a href="#" class="footer-link">Установочная продукция</a></li>
+                    </ul>
+                </div>
+                <div class="footer-blog">
+                    <h3 class="footer-blog-title">Контакты</h3>
+                    <div class="footer-blog-contacts">
+                        <img src="img/fi_phone-call.svg" alt="phone">
+                        <h4 class="footer-blog-item">87027779610</h4>
+                        <div class="footer-blog-graphics">
+                            <h5 class="graphics-work">График работы 9:30 – 17:00</h5>
+                        </div>
+                    </div>
+                    <div class="footer-blog-location">
+                        <img src="img/fi_map-pin.svg" alt="map-pin">
+                        <h4 class="footer-blog-item">Адрес г. Нур Султан Беимбета Майлина 4\1</h4>
+                    </div>
+                    <div class="footer-blog-social-newtwork">
+                        <img src="img/whatsapp (1) 1.svg" alt="whatsap">
+                        <h3 class="footer-blog-subtitle">87027779610</h3>
+                    </div>
+                    <a href="+998999168106" class="btn">Обратный звонок <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="footer-icon">
+                <img src="img/footer-logo.png" alt="DS STUDIO">
+            </div>
+        </div>
+    </footer>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <div class="popup__image">
+                    <img src="img/check-mark.svg" alt="check-mark">
+                </div>
+                <div class="popup__text">
+                    <h3 class="popup-title">Спасибо!</h3>
+                    <p class="popup-subtitle">В самое ближайшее время мы свяжемся с вами и обсудим условия <br> нашего сотрудничества! <br> С уважением команда ТОО «JIM ENERGY»</p>
+                    <div class="popup__btn">
+                        <a href="#" class="btn-primary popup-close popup-link">Вернуться на главную <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
